@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zipper Rush - GMTK Jam 2021", "Zipper Rush - GMTK Jam 2021.csproj", "{31204BCC-79FE-4D55-81E1-0E45EC28015D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31204BCC-79FE-4D55-81E1-0E45EC28015D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31204BCC-79FE-4D55-81E1-0E45EC28015D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31204BCC-79FE-4D55-81E1-0E45EC28015D}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{31204BCC-79FE-4D55-81E1-0E45EC28015D}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{31204BCC-79FE-4D55-81E1-0E45EC28015D}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{31204BCC-79FE-4D55-81E1-0E45EC28015D}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal

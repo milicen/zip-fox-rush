@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scripts/Obstacle.cs" type="Script" id=1]
+[ext_resource path="res://assets/AngrryWood_SpriteSheet/angry_wood_001.png" type="Texture" id=2]
+[ext_resource path="res://assets/AngrryWood_SpriteSheet/angry_wood_002.png" type="Texture" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 32, 16 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="Obstacle" type="Area2D" groups=[
+"obstacle",
+]]
+script = ExtResource( 1 )
+waitingPos = Vector2( 384, -96 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 16 )
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="CollisionShape2D"]
+modulate = Color( 0.796078, 0.572549, 1, 1 )
+position = Vector2( 0, -16 )
+scale = Vector2( 2, 2 )
+frames = SubResource( 2 )
+playing = true
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
+position = Vector2( 1.90735e-06, -9.53674e-07 )
+scale = Vector2( 3.2, 3.2 )
+[connection signal="viewport_exited" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_viewport_exited"]

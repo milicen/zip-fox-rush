@@ -1,0 +1,133 @@
+[gd_scene load_steps=51 format=2]
+
+[ext_resource path="res://assets/SpriteSheet/blue_run_009.png" type="Texture" id=1]
+[ext_resource path="res://scripts/Runner.cs" type="Script" id=2]
+[ext_resource path="res://assets/SpriteSheet/run_018.png" type="Texture" id=3]
+[ext_resource path="res://assets/SpriteSheet/run_013.png" type="Texture" id=4]
+[ext_resource path="res://assets/SpriteSheet/run_015.png" type="Texture" id=5]
+[ext_resource path="res://assets/SpriteSheet/run_020.png" type="Texture" id=6]
+[ext_resource path="res://assets/SpriteSheet/run_007.png" type="Texture" id=7]
+[ext_resource path="res://assets/SpriteSheet/run_006.png" type="Texture" id=8]
+[ext_resource path="res://assets/SpriteSheet/run_005.png" type="Texture" id=9]
+[ext_resource path="res://assets/SpriteSheet/run_004.png" type="Texture" id=10]
+[ext_resource path="res://assets/SpriteSheet/run_017.png" type="Texture" id=11]
+[ext_resource path="res://assets/SpriteSheet/run_011.png" type="Texture" id=12]
+[ext_resource path="res://assets/SpriteSheet/run_002.png" type="Texture" id=13]
+[ext_resource path="res://assets/SpriteSheet/run_008.png" type="Texture" id=14]
+[ext_resource path="res://assets/SpriteSheet/run_014.png" type="Texture" id=15]
+[ext_resource path="res://assets/SpriteSheet/run_003.png" type="Texture" id=16]
+[ext_resource path="res://assets/SpriteSheet/run_009.png" type="Texture" id=17]
+[ext_resource path="res://assets/SpriteSheet/run_001.png" type="Texture" id=18]
+[ext_resource path="res://assets/SpriteSheet/run_019.png" type="Texture" id=19]
+[ext_resource path="res://assets/SpriteSheet/run_012.png" type="Texture" id=20]
+[ext_resource path="res://assets/SpriteSheet/run_010.png" type="Texture" id=21]
+[ext_resource path="res://assets/SpriteSheet/run_016.png" type="Texture" id=22]
+[ext_resource path="res://assets/SpriteSheet/blue_run_003.png" type="Texture" id=23]
+[ext_resource path="res://assets/SpriteSheet/blue_run_005.png" type="Texture" id=24]
+[ext_resource path="res://assets/SpriteSheet/blue_run_019.png" type="Texture" id=25]
+[ext_resource path="res://assets/SpriteSheet/blue_run_010.png" type="Texture" id=26]
+[ext_resource path="res://assets/SpriteSheet/blue_run_020.png" type="Texture" id=27]
+[ext_resource path="res://assets/SpriteSheet/blue_run_018.png" type="Texture" id=28]
+[ext_resource path="res://assets/SpriteSheet/blue_run_002.png" type="Texture" id=29]
+[ext_resource path="res://assets/SpriteSheet/blue_run_004.png" type="Texture" id=30]
+[ext_resource path="res://assets/SpriteSheet/blue_run_007.png" type="Texture" id=31]
+[ext_resource path="res://assets/SpriteSheet/blue_run_013.png" type="Texture" id=32]
+[ext_resource path="res://assets/SpriteSheet/blue_run_001.png" type="Texture" id=33]
+[ext_resource path="res://assets/SpriteSheet/blue_run_012.png" type="Texture" id=34]
+[ext_resource path="res://assets/SpriteSheet/blue_run_011.png" type="Texture" id=35]
+[ext_resource path="res://assets/SpriteSheet/blue_run_017.png" type="Texture" id=36]
+[ext_resource path="res://assets/SpriteSheet/blue_run_014.png" type="Texture" id=37]
+[ext_resource path="res://assets/SpriteSheet/blue_run_008.png" type="Texture" id=38]
+[ext_resource path="res://assets/SpriteSheet/blue_run_006.png" type="Texture" id=39]
+[ext_resource path="res://assets/SpriteSheet/blue_run_015.png" type="Texture" id=40]
+[ext_resource path="res://assets/SpriteSheet/blue_run_016.png" type="Texture" id=41]
+[ext_resource path="res://assets/Soul_SpriteSheet/soul_loose_001png.png" type="Texture" id=42]
+[ext_resource path="res://assets/Soul_SpriteSheet/soul_loose_005.png" type="Texture" id=43]
+[ext_resource path="res://assets/Soul_SpriteSheet/soul_loose_003.png" type="Texture" id=44]
+[ext_resource path="res://assets/Music/118649__pyzaist__bump.wav" type="AudioStream" id=45]
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ ExtResource( 42 ), ExtResource( 42 ), ExtResource( 44 ), ExtResource( 44 ), ExtResource( 43 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 44 ) ],
+"loop": true,
+"name": "default",
+"speed": 10.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 16.0
+height = 16.0
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 18 ), ExtResource( 13 ), ExtResource( 16 ), ExtResource( 10 ), ExtResource( 9 ), ExtResource( 8 ), ExtResource( 7 ), ExtResource( 14 ), ExtResource( 17 ), ExtResource( 21 ), ExtResource( 12 ), ExtResource( 20 ), ExtResource( 4 ), ExtResource( 15 ), ExtResource( 5 ), ExtResource( 22 ), ExtResource( 11 ), ExtResource( 3 ), ExtResource( 19 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "default",
+"speed": 24.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=3]
+radius = 16.0
+height = 16.0
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 33 ), ExtResource( 29 ), ExtResource( 23 ), ExtResource( 30 ), ExtResource( 24 ), ExtResource( 39 ), ExtResource( 31 ), ExtResource( 38 ), ExtResource( 1 ), ExtResource( 26 ), ExtResource( 35 ), ExtResource( 34 ), ExtResource( 32 ), ExtResource( 37 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 36 ), ExtResource( 28 ), ExtResource( 25 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "default",
+"speed": 23.0
+} ]
+
+[node name="Runner" type="Node2D"]
+pause_mode = 2
+z_index = 2
+script = ExtResource( 2 )
+soulInitialScale = Vector2( 1.5, 1.5 )
+soulFinalScale = Vector2( 5, 1.5 )
+
+[node name="SoulSprite" type="AnimatedSprite" parent="."]
+modulate = Color( 0.156863, 0.564706, 1, 0.368627 )
+position = Vector2( 0, 8 )
+scale = Vector2( 1.5, 1.5 )
+z_as_relative = false
+frames = SubResource( 5 )
+frame = 2
+playing = true
+
+[node name="RedFox" type="Area2D" parent="."]
+position = Vector2( -32, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RedFox"]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="AnimatedSprite" parent="RedFox/CollisionShape2D"]
+position = Vector2( 0, 25.4846 )
+scale = Vector2( 2.5, 2.5 )
+frames = SubResource( 2 )
+frame = 7
+playing = true
+
+[node name="BlueFox" type="Area2D" parent="."]
+position = Vector2( 32, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BlueFox"]
+shape = SubResource( 3 )
+
+[node name="Sprite" type="AnimatedSprite" parent="BlueFox/CollisionShape2D"]
+position = Vector2( 0, 25.4846 )
+scale = Vector2( 2.5, 2.5 )
+frames = SubResource( 4 )
+frame = 12
+playing = true
+
+[node name="MovementTween" type="Tween" parent="."]
+
+[node name="ZipTween" type="Tween" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 45 )
+volume_db = -8.077
+pitch_scale = 1.58
+[connection signal="area_entered" from="RedFox" to="." method="_on_RedFox_area_entered"]
+[connection signal="area_entered" from="BlueFox" to="." method="_on_BlueFox_area_entered"]
+[connection signal="tween_completed" from="MovementTween" to="." method="_on_MovementTween_tween_completed"]

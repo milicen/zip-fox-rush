@@ -1,0 +1,6 @@
+.import
+.mono
+mono_crash*
+*.import
+*.cfg
+*.png~
